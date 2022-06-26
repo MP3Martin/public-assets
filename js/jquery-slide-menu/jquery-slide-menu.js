@@ -2,7 +2,7 @@
   
   (function ($) {
       var OCMenu = function (element, speed, expand) {
-          element.html('<i class="fa fa-cogs fa-lg fa-spin"></i>');
+          element.html('<i class="fa fa-cogs fa-lg"></i>');
   
           if (typeof expand != 'undefined') {
               element.data('expand', expand);
@@ -14,14 +14,14 @@
               element.parent().animate({ left: '0px' }, {
                   duration: speed,
                   start: function () {
-                      element.find('.fa').addClass('fa-spin');
+                      // 
                   }
               });
           } else {
               element.parent().animate({ left: '-200px' }, {
                   duration: speed,
                   start: function () {
-                      element.find('.fa').removeClass('fa-spin');
+                      // 
                   }
               });
           }
