@@ -14,14 +14,16 @@
               element.parent().animate({ left: '0px' }, {
                   duration: speed,
                   start: function () {
-                      // 
+                      element.find('.fa').removeClass('fa-cogs');
+                      element.find('.fa').addClass('fa-arrow-left');
                   }
               });
           } else {
               element.parent().animate({ left: '-200px' }, {
                   duration: speed,
                   start: function () {
-                      // 
+                      element.find('.fa').addClass('fa-cogs');
+                      element.find('.fa').removeClass('fa-arrow-left');
                   }
               });
           }
