@@ -1,0 +1,53 @@
+{
+  "title": "My Favourite Games - MP3Martin",
+  "custom": {
+    "imageBaseURL": "auto"
+  },
+  "rows": [
+    {
+      "name": "S",
+      "imgs": [
+        "outer-wilds.jpg",
+        "metro-exodus.webp",
+        "hfw.jpg",
+        "hzd.jpg",
+        "fo4.webp",
+        "portal-2.jpg",
+        "stray.jpg",
+        "kcd.webp",
+        "superliminal.jpg",
+        "firewatch.webp",
+        "the-stanley-parable-ultra-deluxe.jpg",
+        "hitman-3.jpg",
+        "teardown.webp",
+        "geometry-dash.jpg",
+        "minecraft.jpg",
+        "half-life.jpg"
+      ]
+    },
+    {
+      "name": "A",
+      "imgs": []
+    },
+    {
+      "name": "B",
+      "imgs": []
+    },
+    {
+      "name": "C",
+      "imgs": []
+    },
+    {
+      "name": "D",
+      "imgs": []
+    },
+    {
+      "name": "E",
+      "imgs": []
+    },
+    {
+      "name": "F",
+      "imgs": []
+    }
+  ]
+}
